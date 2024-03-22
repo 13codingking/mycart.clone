@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      background-color: rgb(250, 252, 131);
+      color: red;
+      height: 50vh;
+      padding: 12px;
+      border: 4px solid black;
+    }
+
+    img {
+      height: 40px;
+      transition: height;
+      transition-duration: 3s;
+      transition-timing-function: ease-in;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <img id="myIMG" src="Screenshot (2).png">
+  </div>
+  <button id="btn">KEY</button>
+
+</body>
+<script>
+  myIMG.style.height = "140px";
+  btn.addEventListener("click",()=>{
+    if(myIMG.style.height === '140px'){
+      myIMG.style.height = "340px";
+    }
+    else if(myIMG.style.height === '340px'){
+      myIMG.style.height = "140px";
+    }
+  })
+  console.log("Hello World");
+  alert("singh");
+</script>
+
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipcart Clone</title>
+     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color: blue;
+            border: 2px solid red;
+            height: 80vh;
+            display: grid;
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        img{
+        margin: 50px;
+        animation-name:width;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        position: relative;
+        top: 80px;
+         }
+         @keyframes width{
+            0%{
+                width: 100px;
+                border: 2px solid black;
+            }
+            30%{
+                width: 150px;
+                border: 4px solid green;
+            }
+            70%{
+                width: 200px;
+                border: 6px solid orange;
+            }
+            100%{
+                width: 280px;
+                border: 8px solid yellow;
+            }
+         }
+     </style>
+</head>
+<body>
+    <div class="container">
+        <img src="Screenshot (2).png">
+    </div>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipcart Clone</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            height: 30px;
+            display: grid;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        ul {
+            display: inline;
+            list-style: none;
+        }
+
+        main {
+            background-color: blue;
+            height: 90vh;
+        }
+        h4{
+            color: rgb(215, 222, 18);
+            display: grid;
+            justify-content: center;
+            position: relative;
+            top: 30vh;
+            /* border: 2px solid white;*/
+         
+        }
+
+        .progress {
+
+            animation-name: progressicon;
+            animation-duration: 4s;
+            animation-timing-function: ease-in;
+            animation-iteration-count: infinite;
+            padding: 2px;
+            background-color: red;
+
+        }
+
+        @keyframes progressicon {
+            0% {
+                width: 0px;
+                
+            }
+
+            100% {
+                width: 200vh;
+            
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="progress"></div>
+    <header>
+        <nav>
+            <ul>
+                <li> HOME ABOUT CONTACT </li>
+
+            </ul>
+        </nav>
+    </header>
+    <main> 
+       <h4>  <big>꧁༒ קคɭคк ༒꧂ </big>   </h4>
+       <h4>  <big>꧁༒ Şคtקคɭ ༒꧂</big>   </h4>     
+       
+    </main>
+
+</body>
+
+
+</html> -->
